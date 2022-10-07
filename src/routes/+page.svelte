@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import TitleBar from '$lib/TitleBar.svelte';
+	import LeftSidebar from '$lib/LeftSidebar.svelte';
+	import MainContent from '$lib/MainContent.svelte';
+	import RightSidebar from '$lib/RightSidebar.svelte';
+	import Footer from '$lib/Footer.svelte';
+</script>
+
+<TitleBar />
+<LeftSidebar />
+<MainContent />
+<RightSidebar />
+<Footer />
