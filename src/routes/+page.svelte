@@ -6,7 +6,7 @@
 	import Footer from '$lib/Footer.svelte';
 </script>
 
-<TitleBar />
+<TitleBar class="top-3" />
 <LeftSidebar />
 <MainContent />
 <RightSidebar />
