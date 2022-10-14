@@ -3,8 +3,7 @@
 	import SearchBar from '$lib/TitleBar/SearchBar.svelte';
 </script>
 
-<!-- <h1 class="bg-red-500 fixed top-10">Testing</h1> -->
-<div class="fixed top-0 flex w-full">
+<div class="flex">
 	<SiteIcon />
 	<SearchBar />
 </div>

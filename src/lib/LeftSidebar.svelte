@@ -3,5 +3,8 @@
 	import NavList from './LeftSidebar/NavList.svelte';
 </script>
 
-<BigIcon />
-<NavList />
+<div>
+	<!-- class="bg-slate-800 w-20 min-w-full h-full min-h-full"> -->
+	<BigIcon />
+	<NavList />
+</div>
